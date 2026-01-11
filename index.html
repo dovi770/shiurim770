@@ -53,13 +53,13 @@
     <script>
         // --- ההגדרה היחידה שאתה צריך ---
         // כאן תדביק את הקישור שתקבל מגוגל שיטס (הסבר למטה)
-        const SHEET_CSV_URL = 'כאן_מדביקים_את_הקישור'; 
+        const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQDgjVOkQy1H00jpvOOIAdHPCuimTCnmzdkwIGVWZU2RTb0ZLfTgoKTVMQl531JYXYCM7wthMVMQBUK/pub?output=csv'; 
 
         let allLessons = [];
 
         async function loadData() {
             if (SHEET_CSV_URL === 'כאן_מדביקים_את_הקישור') {
-                document.getElementById('loading').innerHTML = "נא להדביק את קישור ה-CSV בקוד";
+                document.getElementById('loading').innerHTML = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQDgjVOkQy1H00jpvOOIAdHPCuimTCnmzdkwIGVWZU2RTb0ZLfTgoKTVMQl531JYXYCM7wthMVMQBUK/pub?output=csv";
                 return;
             }
 
